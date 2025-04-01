@@ -5,9 +5,9 @@ npm run dev
 ## 2
 
 // BetterButton.tsx
-
+```
 interface ButtonProps {
-  //click handler
+  //handler that runs on click of a button
   onClick: () => void;
   // Optional text prop with a default value
   text?: string; 
@@ -29,7 +29,7 @@ export default function BetterButton({ onClick, text = "Click me" }: ButtonProps
     </button>
   );
 }
-
+```
 ## 3
 Handling Design Inconsistencies and Mobile Responsiveness
 
